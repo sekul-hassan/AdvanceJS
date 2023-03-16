@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login form design</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
+    <div>
+        <h3>Click on the button to open login form:</h3>
+        <button class="btn1" id="btn1">Login</button>
+    </div>
+
+    <div id="id01" class="modal">
+        <form action="#" class="modal-content animate">
+           
+            <div class="imgcontainer">
+                <span id="close" class="close">&times;</span>
+                <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname">User Name</label>
+                <input type="text" placeholder="Enter user name" name="uname">
+                <label for="pass">Password</label>
+                <input type="password" placeholder="Enter password" name="pass">
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">
+                </label>
+            </div>
+
+            <div class="container" style="background-color: #f1f2f1;">
+                <button type="button" class="cancelbtn" id="cancelbtn1">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    <script src="login.js"></script>
 </body>
 </html>
