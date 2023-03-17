@@ -5,11 +5,6 @@ let login = document.getElementById("btn1");
 
 login.addEventListener("click",()=>{
     modal.style.display = "inline-block";
-    setTimeout(func,1000);
-    function func(){
-        modal.classList.remove("animate");
-        modal.classList.add("down");
-    }
 });
 
 let cancelbtn1 = document.getElementById("cancelbtn1");

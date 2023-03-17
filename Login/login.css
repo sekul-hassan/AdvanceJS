@@ -76,13 +76,6 @@ button:hover{
     from{-webkit-transform:scale(0)}
     to{-webkit-transform: scale(1)}
 }
-.down{
-    animation: op 1s;
-}
-@keyframes op{
-    from{-webkit-transform: scale(1)}
-    to{-webkit-transform: scale(0)}
-}
 .modal-content{
     background-color: #fefefe;
     margin: 5% auto 15% auto;
